@@ -1,0 +1,80 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "courses": "Courses",
+    "work": "Work With Me",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Frontend Developer | Work With Me | Personal Blog",
+    "subtitle": "Crafting Modern Web Experiences",
+    "description": "Hi, I'm Nurmuhamad Narzulloev, a passionate Frontend Developer specializing in React, JavaScript, and modern web technologies. I create beautiful, responsive websites and teach frontend development courses.",
+    "cta": "View My Work",
+    "features": {
+      "title": "What I Do",
+      "subtitle": "Specialized in creating modern, responsive, and user-friendly web applications",
+      "development": "Modern Development",
+      "developmentDesc": "Using latest technologies like React, TypeScript, and modern JavaScript",
+      "design": "UI/UX Design",
+      "designDesc": "Creating beautiful and intuitive user interfaces with great user experience",
+      "performance": "Performance Optimization",
+      "performanceDesc": "Fast-loading websites optimized for best performance and SEO"
+    },
+    "stats": {
+      "projects": "Projects Completed",
+      "students": "Students Taught",
+      "experience": "Years Experience",
+      "satisfaction": "Client Satisfaction"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Websites and Applications I've Built",
+    "viewLive": "View Live",
+    "viewCode": "View Code",
+    "scrollDown": "Scroll down to see all projects",
+    "cta": {
+      "title": "Need a Project Like This?",
+      "description": "Contact me to discuss your project requirements and get a custom solution",
+      "scrollDown": "Scroll down to see my contact info"
+    }
+  },
+  "courses": {
+    "title": "Frontend Courses",
+    "subtitle": "Learn Modern Web Development",
+    "description": "I offer comprehensive frontend development courses covering HTML, CSS, JavaScript, React, and modern development practices.",
+    "scrollMessage": "Scroll down to see my messengers for enrollment",
+    "process": {
+      "title": "How to Enroll",
+      "step1": "Contact me on Telegram or Instagram",
+      "step2": "Schedule a video call for entry exam",
+      "step3": "Join online or offline courses based on results"
+    },
+    "contact": "Write me on Telegram or Instagram to enroll",
+    "scrollDown": "Scroll down to see my contact info"
+  },
+  "work": {
+    "title": "Work With Me",
+    "subtitle": "Professional Frontend Development Services",
+    "services": {
+      "ui": "UI Design & Development",
+      "frontend": "Frontend Logic & Architecture",
+      "js": "JavaScript Solutions",
+      "responsive": "Responsive Layout Design"
+    },
+    "cta": "Message me directly on Telegram or Instagram"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Connect and Build Something Amazing",
+    "social": "Follow me on social media"
+  },
+  "footer": {
+    "rights": "© 2024 Nurmuhamad Narzulloev. All rights reserved.",
+    "developer": "Frontend Developer & Educator",
+    "navigation": "Quick Links",
+    "connect": "Connect With Me"
+  }
+}
