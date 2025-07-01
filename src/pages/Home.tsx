@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Code, Palette, Zap, Users, Star, Trophy } from 'lucide-react';
 import SEO from '../components/SEO';
-
+import imgmain from '../img/imgmain.png';
 const Home = () => {
   const { t } = useTranslation();
 
@@ -37,7 +37,7 @@ const Home = () => {
     <>
       <SEO />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
-        {/* Hero Section */}
+         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
@@ -65,7 +65,7 @@ const Home = () => {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full shadow-2xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                    src={imgmain}
                     alt="Nurmuhamad Narzulloev"
                     className="w-full h-full object-cover"
                   />
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Features Section */}
+       
         <div className="bg-white dark:bg-gray-800 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -105,7 +105,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Stats Section */}
+        
         <div className="bg-blue-600 dark:bg-blue-700 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
