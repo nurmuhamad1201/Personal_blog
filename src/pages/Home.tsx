@@ -27,9 +27,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '50+', label: t('home.stats.projects') },
-    { number: '200+', label: t('home.stats.students') },
-    { number: '3+', label: t('home.stats.experience') },
+    { number: '10+', label: t('home.stats.projects') },
+    { number: '3+', label: t('home.stats.students') },
+    { number: '5+', label: t('home.stats.experience') },
     { number: '100%', label: t('home.stats.satisfaction') }
   ];
 
