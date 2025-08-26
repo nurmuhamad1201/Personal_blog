@@ -13,7 +13,7 @@ const Courses = () => {
       title: 'HTML & CSS Fundamentals',
       description: 'Learn the building blocks of web development with semantic HTML and modern CSS techniques.',
       duration: '4 weeks',
-      students: '150+',
+      students: '4+',
       level: 'Beginner',
       topics: ['HTML5 Semantic Elements', 'CSS3 Flexbox & Grid', 'Responsive Design', 'CSS Animations']
     },
@@ -22,7 +22,7 @@ const Courses = () => {
       title: 'JavaScript Mastery',
       description: 'Master modern JavaScript from basics to advanced concepts including ES6+ features.',
       duration: '8 weeks',
-      students: '120+',
+      students: '***',
       level: 'Intermediate',
       topics: ['ES6+ Features', 'DOM Manipulation', 'Async/Await', 'Object-Oriented Programming']
     },
@@ -31,7 +31,7 @@ const Courses = () => {
       title: 'React Development',
       description: 'Build modern web applications with React, including hooks, state management, and routing.',
       duration: '10 weeks',
-      students: '80+',
+      students: '***',
       level: 'Advanced',
       topics: ['React Hooks', 'State Management', 'React Router', 'Testing with Jest']
     },
@@ -40,7 +40,7 @@ const Courses = () => {
       title: 'Full Stack Development',
       description: 'Complete full-stack development course covering frontend and backend technologies.',
       duration: '16 weeks',
-      students: '60+',
+      students: '***',
       level: 'Expert',
       topics: ['Node.js & Express', 'Database Design', 'API Development', 'Deployment']
     }

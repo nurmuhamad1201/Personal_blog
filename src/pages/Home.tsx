@@ -30,7 +30,7 @@ const Home = () => {
     { number: '10+', label: t('home.stats.projects') },
     { number: '3+', label: t('home.stats.students') },
     { number: '5+', label: t('home.stats.experience') },
-    { number: '100%', label: t('home.stats.satisfaction') }
+    { number: '80%', label: t('home.stats.satisfaction') }
   ];
 
   return (
@@ -107,17 +107,22 @@ const Home = () => {
 
         
         <div className="bg-blue-600 dark:bg-blue-700 py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-white">
-                  <div className="text-3xl sm:text-4xl font-bold mb-2">{stat.number}</div>
-                  <div className="text-blue-100 text-sm sm:text-base">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      {stats.map((stat, index) => (
+        <div key={index} className="text-white">
+          <div className="text-3xl sm:text-4xl font-bold mb-2">{stat.number}</div>
+          <div className="text-blue-100 text-sm sm:text-base">{stat.label}</div>
         </div>
+      ))}
+    </div>
+   <p className="mt-6 text-white text-base sm:text-lg font-medium text-center dark:bg-blue-600 rounded-md px-4 py-2 ">
+  {t('home.stats.right')}
+</p>
+
+  </div>
+</div>
+
       </div>
     </>
   );
